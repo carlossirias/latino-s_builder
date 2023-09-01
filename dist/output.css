@@ -1803,6 +1803,12 @@ input:checked + .toggle-bg {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:min-w-full {
+    min-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:gap-8 {
     gap: 2rem;
