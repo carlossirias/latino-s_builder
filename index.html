@@ -66,7 +66,8 @@
                 <a href="" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">Services</a>
             </div>
             <div>
-                <a href="" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">Contact us</a>
+                <a href="" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">Contact
+                    us</a>
             </div>
         </nav>
 
@@ -88,25 +89,45 @@
                     <div class="swiper-slide min-h-full brightness-50">
                         <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider4.jpg" />
                     </div>
-                </div> 
+                </div>
             </div>
 
             <!-- First Contact -->
-            <div class="min-h-full grid place-content-center w-full z-20r">
-                <h1 class="text-3xl 2xl:text-6xl font-black text-white">Soon...</h1>
+            <div class="min-h-full grid grid-rows-[1fr_50px] max-sm:grid-cols-1 w-full z-20r">
+                <div class="px-16 flex flex-col items-center justify-center">
 
+                    <h1 class="text-3xl 2xl:text-6xl font-black __headline text-white">We're <span
+                            class="text-[#df8538]">Builders</span>!</h1>
+                    
+                        <p class="text-gray-50 text-center italic __text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.</p>
+                        <div class="__a">
+                            <a href="" class="block w-fit mt-2 p-3  rounded-lg bg-[#df8538] text-white font-semibold transition hover:bg-amber-500"> Contact us</a>
+                        </div>
+
+                </div>
+                <div class="flex justify-center relative items-center width-full">
+                    <svg class="absolute " width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" class="__arrow" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"/>
+                    </svg>
+                </div>
             </div>
-            
+
         </div>
 
     </div>
 
-    <main class="flex-auto h-96 grid place-content-center bg-slate-50">
+    <main class="flex-auto h-96 grid place-content-center  bg-slate-50">
+
         <h1 class="text-3xl 2xl:text-6xl font-black text-amber-500">Soon...</h1>
+
+
     </main>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -119,6 +140,8 @@
             },
         });
     </script>
+    <script src="./assets/js/main.js"></script>
+
 </body>
 
 </html>
