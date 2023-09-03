@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <div class="flex flex-col min-h-screen max-h-screen">
+    <div class="flex flex-col min-h-screen max-h-screen max-sm:max-h-[90vh] max-sm:min-h-[90vh]">
         <!-- Information -->
         <header
             class="bg-white relative w-100 flex max-sm:justify-center place-content-around flex-wrap max-[960px]:pb-2  md:px-16 ">
             <div>
-                <img src="assets/images/Logo.png" class="w-28" alt="">
+                <img src="assets/images/Logo.png" class="w-28" alt="Logo">
             </div>
             <div class="flex max-sm:hidden gap-4">
                 <div class="flex items-center gap-1 min-w-fit">
@@ -57,7 +57,7 @@
         <!-- Navigation -->
         <nav class="w-full relative bg-[#df8538] md:gap-8 flex justify-center z-10 px-2 ">
             <div>
-                <a href="" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">About us</a>
+                <a href="#about_us" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">About us</a>
             </div>
             <div>
                 <a href="" class="text-white font-bold block max-sm:p-2 p-4 transition hover:bg-amber-500">Works</a>
@@ -78,16 +78,16 @@
             <div class="mySwiper flex-auto fixed z-[-1] top-0 w-full">
                 <div class="swiper-wrapper fixed top-0">
                     <div class="swiper-slide min-h-full brightness-50">
-                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider1.jpg" />
+                        <img class="min-h-screen  min-w-fit sm:min-w-full" src="./assets/images/slider1.jpg" alt="slider"/>
                     </div>
                     <div class="swiper-slide min-h-full brightness-50">
-                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider2.jpg" />
+                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider2.jpg" alt="slider"/>
                     </div>
                     <div class="swiper-slide min-h-full brightness-50">
-                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider3.jpg" />
+                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider3.jpg" alt="slider"/>
                     </div>
                     <div class="swiper-slide min-h-full brightness-50">
-                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider4.jpg" />
+                        <img class="min-h-screen min-w-fit sm:min-w-full" src="./assets/images/slider4.jpg" alt="slider"/>
                     </div>
                 </div>
             </div>
@@ -96,20 +96,21 @@
             <div class="min-h-full grid grid-rows-[1fr_50px] max-sm:grid-cols-1 w-full z-20r">
                 <div class="px-16 flex flex-col items-center justify-center">
 
-                    <h1 class="text-3xl 2xl:text-6xl font-black __headline text-white">We're <span
-                            class="text-[#df8538]">Builders</span>!</h1>
+                    <h1 class="text-3xl 2xl:text-6xl font-black __headline text-white">We're <span class="text-[#df8538]">Builders</span>!</h1>
                     
                         <p class="text-gray-50 text-center italic __text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing
                             elit.</p>
                         <div class="__a">
-                            <a href="" class="block w-fit mt-2 p-3  rounded-lg bg-[#df8538] text-white font-semibold transition hover:bg-amber-500"> Contact us</a>
+                            <a href="" class="block w-fit mt-2 p-3  rounded-lg bg-[#df8538] text-white font-semibold transition hover:bg-amber-500"> Get in touch with us</a>
                         </div>
 
                 </div>
                 <div class="flex justify-center relative items-center width-full">
+                    
                     <svg class="absolute " width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="none" class="__arrow" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"/>
+                            <path fill="none" class="__arrow" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"/>
                     </svg>
+                    
                 </div>
             </div>
 
@@ -117,9 +118,43 @@
 
     </div>
 
-    <main class="flex-auto h-96 grid place-content-center  bg-slate-50">
+    <main class="flex-auto bg-slate-50">
 
-        <h1 class="text-3xl 2xl:text-6xl font-black text-amber-500">Soon...</h1>
+        <section class="px-7 md:px-16 py-10 text-gray-800 text-center">
+            <h2 class="text-2xl 2xl:text-4xl font-black mb-10 " id="about_us">About <span class="text-[#df8538]">us</span></h2>
+
+            <article class="grid grid-cols-2 max-sm:grid-cols-1">
+                <div class="lg:p-8 flex justify-center items-center overflow-hidden max-h-[450px]">
+                    <img src="./assets/images/about.jpg" class="" alt="about_us_picture">
+                </div>
+                <div class="max-sm:p-0 max-sm:mt-[21px] p-8 flex flex-col">
+                    <h3 class="text-xl 2xl:text-2xl font-black ">Who are we?</h3>
+                    <br>
+                    <p class="text-center md:text-left 2xl:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eveniet, consectetur quas veritatis vel voluptate nesciunt non rem quia deleniti aspernatur blanditiis debitis ducimus, adipisci fugiat quam neque. Exercitationem quas quia, facilis aspernatur est magnam ex alias reiciendis enim veniam officia cupiditate quidem illum corporis placeat ipsum quasi accusantium rerum debitis voluptatum mollitia ratione molestias! Eos hic, nobis dolorum qui fuga quam. Soluta perferendis commodi distinctio debitis iusto officia asperiores.</p>
+                    <div class="px-5 py-7 flex gap-10 flex-wrap justify-center text-center">
+                            <div class="flex flex-col items-center">
+                                <img class="w-12" src="./assets/images/responsability.png" alt="responsability">
+                                <span class="mt-2 font-semibold">Responsible</span>
+                            </div>
+                
+                            <div class="flex flex-col items-center">
+                                <img class="w-12" src="./assets/images/honestity.png" alt="responsability">
+                                <span class="mt-2 font-semibold">Honest</span>
+                            </div>
+                
+                            <div class="flex flex-col items-center">
+                                <img class="w-12" src="./assets/images/Integrity.png" alt="responsability">
+                                <span class="mt-2 font-semibold">Whole</span>
+                            </div>
+                
+                            <div class="flex flex-col items-center">
+                                <img class="w-12" src="./assets/images/comitment.png" alt="responsability">
+                                <span class="mt-2 font-semibold">Commited</span>
+                            </div>
+                    </div>
+                </div>
+            </article>
+        </section>
 
 
     </main>
