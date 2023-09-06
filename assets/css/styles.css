@@ -22,3 +22,15 @@ html {
         transform: translateY(-5px);
     }
 }
+
+.service
+{
+    border: solid 2px #df8538 ;
+    transition: .2s all ease-in;
+}
+
+.service:hover
+{
+    transform: scale(1.02) ;
+    border-color: #eab308;
+}
