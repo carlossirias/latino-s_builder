@@ -34,3 +34,8 @@ html {
     transform: scale(1.02) ;
     border-color: #eab308;
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #df8538;
+}
