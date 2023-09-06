@@ -1955,6 +1955,10 @@ html {
   .max-sm\:p-2 {
     padding: 0.5rem;
   }
+
+  .max-sm\:text-center {
+    text-align: center;
+  }
 }
 
 @media (min-width: 640px) {
