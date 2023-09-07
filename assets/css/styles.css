@@ -39,3 +39,13 @@ html {
 .swiper-button-next::after {
   color: #df8538;
 }
+
+.whatsapp__icon:hover svg path
+{
+    fill: #eab308;
+}
+
+.facebook__icon:hover svg path
+{
+    fill: #eab308;
+}

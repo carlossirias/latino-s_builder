@@ -1114,6 +1114,10 @@ input:checked + .toggle-bg {
   margin-bottom: 1.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1124,6 +1128,14 @@ input:checked + .toggle-bg {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -1152,6 +1164,10 @@ input:checked + .toggle-bg {
 
 .hidden {
   display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-4 {
@@ -1214,6 +1230,10 @@ input:checked + .toggle-bg {
   width: 7rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -1224,6 +1244,10 @@ input:checked + .toggle-bg {
 
 .w-\[20px\] {
   width: 20px;
+}
+
+.w-\[30px\] {
+  width: 30px;
 }
 
 .w-fit {
@@ -1378,6 +1402,14 @@ input:checked + .toggle-bg {
   gap: 0.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1440,6 +1472,11 @@ input:checked + .toggle-bg {
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.bg-\[\#d57f35\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 127 53 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#df8538\] {
@@ -1764,6 +1801,16 @@ html {
   color: #df8538;
 }
 
+.whatsapp__icon:hover svg path
+{
+  fill: #eab308;
+}
+
+.facebook__icon:hover svg path
+{
+  fill: #eab308;
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1941,12 +1988,28 @@ html {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:order-1 {
+    order: 1;
+  }
+
+  .max-sm\:order-2 {
+    order: 2;
+  }
+
   .max-sm\:mt-\[21px\] {
     margin-top: 21px;
   }
 
+  .max-sm\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
   .max-sm\:hidden {
     display: none;
+  }
+
+  .max-sm\:h-64 {
+    height: 16rem;
   }
 
   .max-sm\:max-h-screen {
@@ -2027,8 +2090,17 @@ html {
     margin-bottom: 5rem;
   }
 
+  .\32xl\:w-full {
+    width: 100%;
+  }
+
   .\32xl\:grid-cols-\[380px_380px_380px\] {
     grid-template-columns: 380px 380px 380px;
+  }
+
+  .\32xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .\32xl\:py-20 {
