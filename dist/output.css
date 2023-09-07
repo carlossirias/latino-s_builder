@@ -2049,6 +2049,10 @@ html {
     padding-bottom: 2rem;
   }
 
+  .max-sm\:pb-14 {
+    padding-bottom: 3.5rem;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
