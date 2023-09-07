@@ -2041,6 +2041,14 @@ html {
     padding-bottom: 1rem;
   }
 
+  .max-sm\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .max-sm\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
   .max-sm\:text-center {
     text-align: center;
   }
